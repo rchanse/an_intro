@@ -114,3 +114,22 @@ git push -u origin master
 
 git log -p filename
 
+Mon 21 Jan 2019 02:39:00 PM CST
+git config --list
+
+user.name=R. C. Hansen
+user.mail=rchanserpi@gmail.com
+user.email=rchansen@gmail.com
+color.ui=false
+alias.last=log -1 HEAD
+alias.graph=log --graph --graph --oneline --decorate --all
+alias.lg=log --oneline --decorate --graph --all
+nser.email=rchansen@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/rchanse/an_intro.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master

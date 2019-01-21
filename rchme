@@ -95,4 +95,22 @@ end l -alhR
 
 note are in rchme rather than README
 
+git init
+
+git status
+
+git a filename  or  .
+
+git commit -m " reason "
+
+git checkout -b new-branch
+
+git branch
+ 
+git remove origin
+git remote remove origin
+git remote add origin https://github.com/rchanse/an_intro.git
+git push -u origin master
+
+git log -p filename
 

@@ -1,0 +1,98 @@
+Mon 21 Jan 2019 10:25:38 AM CST
+
+rchnotes on :
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
+git --version > tempname
+git version 2.7.4
+ 
+ uname -a > tempname
+Linux Xubuntu-16.04 4.4.0-141-generic #167-Ubuntu SMP Wed Dec 5 10:38:08 UTC 2018 i686 i686 i686 GNU/Linux
+
+ls -alhR > tempname
+.:
+total 32K
+drwxrwxr-x  3 rchansen rchansen 4.0K Jan 21 10:31 .
+drwxrwxr-x 12 rchansen rchansen 4.0K Jan 21 10:24 ..
+drwxrwxr-x  7 rchansen rchansen 4.0K Jan 21 10:28 .git
+-rw-rw-r--  1 rchansen rchansen   20 Jan 21 10:28 .gitignore
+-rw-------  1 rchansen rchansen  12K Jan 21 10:35 .Readme.swp
+
+./.git:
+total 40K
+drwxrwxr-x 7 rchansen rchansen 4.0K Jan 21 10:28 .
+drwxrwxr-x 3 rchansen rchansen 4.0K Jan 21 10:31 ..
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 branches
+-rw-rw-r-- 1 rchansen rchansen   92 Jan 21 10:28 config
+-rw-rw-r-- 1 rchansen rchansen   73 Jan 21 10:28 description
+-rw-rw-r-- 1 rchansen rchansen   23 Jan 21 10:28 HEAD
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 hooks
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 info
+drwxrwxr-x 4 rchansen rchansen 4.0K Jan 21 10:28 objects
+drwxrwxr-x 4 rchansen rchansen 4.0K Jan 21 10:28 refs
+
+./.git/branches:
+total 8.0K
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 .
+drwxrwxr-x 7 rchansen rchansen 4.0K Jan 21 10:28 ..
+
+./.git/hooks:
+total 48K
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 .
+drwxrwxr-x 7 rchansen rchansen 4.0K Jan 21 10:28 ..
+-rwxrwxr-x 1 rchansen rchansen  478 Jan 21 10:28 applypatch-msg.sample
+-rwxrwxr-x 1 rchansen rchansen  896 Jan 21 10:28 commit-msg.sample
+-rwxrwxr-x 1 rchansen rchansen  189 Jan 21 10:28 post-update.sample
+-rwxrwxr-x 1 rchansen rchansen  424 Jan 21 10:28 pre-applypatch.sample
+-rwxrwxr-x 1 rchansen rchansen 1.7K Jan 21 10:28 pre-commit.sample
+-rwxrwxr-x 1 rchansen rchansen 1.3K Jan 21 10:28 prepare-commit-msg.sample
+-rwxrwxr-x 1 rchansen rchansen 1.4K Jan 21 10:28 pre-push.sample
+-rwxrwxr-x 1 rchansen rchansen 4.8K Jan 21 10:28 pre-rebase.sample
+-rwxrwxr-x 1 rchansen rchansen 3.6K Jan 21 10:28 update.sample
+
+./.git/info:
+total 12K
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 .
+drwxrwxr-x 7 rchansen rchansen 4.0K Jan 21 10:28 ..
+-rw-rw-r-- 1 rchansen rchansen  240 Jan 21 10:28 exclude
+
+./.git/objects:
+total 16K
+drwxrwxr-x 4 rchansen rchansen 4.0K Jan 21 10:28 .
+drwxrwxr-x 7 rchansen rchansen 4.0K Jan 21 10:28 ..
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 info
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 pack
+
+./.git/objects/info:
+total 8.0K
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 .
+drwxrwxr-x 4 rchansen rchansen 4.0K Jan 21 10:28 ..
+
+./.git/objects/pack:
+total 8.0K
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 .
+drwxrwxr-x 4 rchansen rchansen 4.0K Jan 21 10:28 ..
+
+./.git/refs:
+total 16K
+drwxrwxr-x 4 rchansen rchansen 4.0K Jan 21 10:28 .
+drwxrwxr-x 7 rchansen rchansen 4.0K Jan 21 10:28 ..
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 heads
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 tags
+
+./.git/refs/heads:
+total 8.0K
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 .
+drwxrwxr-x 4 rchansen rchansen 4.0K Jan 21 10:28 ..
+
+./.git/refs/tags:
+total 8.0K
+drwxrwxr-x 2 rchansen rchansen 4.0K Jan 21 10:28 .
+drwxrwxr-x 4 rchansen rchansen 4.0K Jan 21 10:28 ..
+
+end l -alhR
+-------------------------------------------------------------
+
+note are in rchme rather than README
+
+
